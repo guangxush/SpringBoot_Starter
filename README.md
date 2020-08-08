@@ -1,6 +1,6 @@
-## SpringBoot Starter
+## Spring Boot Starter
 
-### 什么是SpringBoot Starter
+### 什么是Spring Boot Starter
 
 ```
 Starter POMs are a set of convenient dependency descriptors that you can include in your application. You get a one-stop-shop for all the Spring and related technology that you need, without having to hunt through sample code and copy paste loads of dependency descriptors. For example, if you want to get started using Spring and JPA for database access, just include the spring-boot-Starter-data-jpa dependency in your project, and you are good to go.
@@ -43,7 +43,7 @@ Starter的实现：虽然不同的Starter实现起来各有差异，但是他们
 ```
 
 1. 新建一个SpringBoot项目，pom.xml配置文件如下
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
